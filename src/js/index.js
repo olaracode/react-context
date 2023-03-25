@@ -6,7 +6,15 @@ import ReactDOM from "react-dom";
 import "../styles/index.css";
 
 //import your own components
-import Home from "./component/home.jsx";
+import App from "./App.jsx";
+// Dos vistas
+// React-router-dom
+// Un formulario
+// ?
 
 //render your react application
-ReactDOM.render(<Home />, document.querySelector("#app"));
+// BrowserRouter -> Es el proveedor de las rutas
+// Routes -> Es una serie de rutas
+// Route -> Es la ruta como tal
+// Dentro de nuestro index es que necesitamos el router
+ReactDOM.render(<App />, document.querySelector("#app"));
